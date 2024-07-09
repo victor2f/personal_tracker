@@ -1,0 +1,11 @@
+# GPS NMEA 0183 Messaging Protocol 101
+
+https://docs.arduino.cc/learn/communication/gps-nmea-data-101/
+
+Sentence	Description
+$GPGGA	Time, position, fix type data.
+$GPGLL	Latitude, longitude, UTC time of position fix and status.
+$GPGSA	GPS receiver operating mode, satellites used in the position solution, DOP values.
+$GPGSV	Number of satellites in view, satellite ID numbers, elevation, azimuth, SNR values.
+$GPRMC	Time, date, position, course, speed data.
+$GPVTG	Course, speed information relative to the ground.

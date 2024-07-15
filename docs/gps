@@ -9,3 +9,13 @@ $GPGSA	GPS receiver operating mode, satellites used in the position solution, DO
 $GPGSV	Number of satellites in view, satellite ID numbers, elevation, azimuth, SNR values.
 $GPRMC	Time, date, position, course, speed data.
 $GPVTG	Course, speed information relative to the ground.
+
+Exemplo:
+    $GPGGA,022212.000,2307.6375,S,04545.4328,W,1,7,1.02,560.1,M,-4.3,M,,*42
+    $GPGLL,2307.6375,S,04545.4328,W,022212.000,A,A*5B
+    $GPGSA,A,3,18,23,32,16,29,26,10,,,,,,1.37,1.02,0.91*0C
+    $GPGSV,3,1,10,10,66,217,31,32,46,014,31,27,45,220,20,23,44,156,17*7A
+    $GPGSV,3,2,10,16,33,281,20,18,29,110,15,26,23,323,17,08,13,219,*70
+    $GPGSV,3,3,10,29,09,040,17,15,01,143,*7B
+    $GPRMC,022212.000,A,2307.6375,S,04545.4328,W,0.68,110.67,140724,,,A*67
+    $GPVTG,110.67,T,,M,0.68,N,1.26,K,A*37
